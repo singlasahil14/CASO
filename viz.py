@@ -1,6 +1,5 @@
 import torch
 import numpy as np
-from scipy.stats import spearmanr
 from torch.autograd import Variable
 from PIL import Image
 import matplotlib

@@ -1,7 +1,4 @@
-import pickle
-import time
 import numpy as np
-from collections import defaultdict, OrderedDict
 from matplotlib import pyplot as plt
 
 import torch
@@ -239,7 +236,7 @@ class CASO(Explainer):
 
         if self._second_order:
             if self._full_hessian:
-                x_grad, sigma_H, HEV, fn = self._full_eigen(model, x)
+                x_grad, sigma_H, HEV, hvp_fn = self._full_eigen(model, x)
                 if lambda1 == 0:
                     sigma_H = sigma_H.type(torch.cuda.FloatTensor)
                     delta = self._hessian_inverse(sigma_H, HEV, x_grad, lambda2)
