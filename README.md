@@ -58,5 +58,3 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 			<img src = 'examples/duck_caso.png' width = '240px'>
 	    </figure>
 </div>
-
-<p>My <img src="examples/duck.jpeg" alt="foo bar" title="CASO output" /></p>
