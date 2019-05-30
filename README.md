@@ -75,7 +75,7 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 	    </figure>
 </div>
 
-<table width="500px" border="0px" cellspacing="0px" cellpadding="0px">
+<table width="500px" border="0px" cellspacing="0px" cellpadding="0px" class="no-border">
 <tr>
 <td align="center" valign="center">
 	<figure style='float: left; margin-left: 5px; margin-right: 5px'>
