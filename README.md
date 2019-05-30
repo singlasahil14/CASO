@@ -69,23 +69,23 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 	    </figure>
 </div>
 
-<table width="500px" style="border: 1px solid transparent" cellpadding="0" border-collapse="collapse">
+<table width="500px" style="border:none; border-top: none">
 <tr>
-<td align="center" valign="center">
+<td align="center" valign="center" style="border:none; border-top: none;">
 	<figure style='float: left; margin-left: 5px; margin-right: 5px'>
 	<img src = 'examples/duck.jpeg' width = '240px'>
 	<p>Confidence=0.957</p>
 	</figure>
 </td>
 
-<td align="center" valign="center">
+<td align="center" valign="center" style="border:none; border-top: none;">
     <figure style='float: left; margin-left: 5px; margin-right: 5px'>
 		<img src = 'examples/duck_cafo.png' width = '240px'>
 		<p>CAFO output</p>
     </figure>
 </td>
 
-<td align="center" valign="center">
+<td align="center" valign="center" style="border:none; border-top: none;">
     <figure style='float: left; margin-left: 5px; margin-right: 5px'>
 		<img src = 'examples/duck_caso.png' width = '240px'>
 		<p>CASO output</p>
