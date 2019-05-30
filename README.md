@@ -28,6 +28,9 @@ To generate the CAFO example, use python .\main.py --image_path=IMAGE_NAME --lam
 For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 --magnitude --second-order
 <div align = 'center'>
 	<figure style='float: center; margin-left: 5px; margin-right: 5px;'>
-		<img src = 'examples/hessian_example.png' width = '750px'>
+		<img src = 'examples/low_confidence_example.png' width = '750px'>
+	</figure>
+	<figure style='float: center; margin-left: 5px; margin-right: 5px;'>
+		<img src = 'examples/high_confidence_example.png' width = '750px'>
 	</figure>
 </div>
