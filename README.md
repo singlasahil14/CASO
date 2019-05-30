@@ -35,14 +35,6 @@ To evaluate the interpretation with default parameters on the given toy image, r
 			<img src = 'examples/delta_1e-5.png' height = '200px' width = '200px'>
 			<figcaption>&#955;<sub>1</sub>=1e-5</figcaption>
 	    </div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 	</figure>
 	<br>
 </div>
