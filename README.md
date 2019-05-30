@@ -56,15 +56,15 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 
 <div align = 'center'>
 	    <figure style='float: left; margin-left: 5px; margin-right: 5px'>
-			<img src = 'examples/duck.jpeg' width = '240px'>
+			<p align="center"><img src = 'examples/duck.jpeg' width = '240px'></p>
 	  		<p align="center">Confidence=0.957</p>
 	    </figure>
 	    <figure style='float: left; margin-left: 5px; margin-right: 5px'>
-			<img src = 'examples/duck_cafo.png' width = '240px'>
+			<p align="center"><img src = 'examples/duck_cafo.png' width = '240px'></p>
 			<p align="center">CAFO output</p>
 	    </figure>
 	    <figure style='float: left; margin-left: 5px; margin-right: 5px'>
-			<img src = 'examples/duck_caso.png' width = '240px'>
+			<p align="center"><img src = 'examples/duck_caso.png' width = '240px'></p>
 			<p align="center">CASO output</p>
 	    </figure>
 </div>
