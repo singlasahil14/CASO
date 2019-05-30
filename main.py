@@ -59,7 +59,7 @@ parser.add_argument('--stddev', default=0.15, type=float, \
 parser.add_argument('--times_input', default=False, action='store_true',
                     help='multiply with input')
 parser.add_argument('--magnitude', default=False, action='store_true',
-                    help='normalize the interpretation')
+                    help='square and normalize the interpretation')
 
 def main():
     args = parser.parse_args()
@@ -70,6 +70,12 @@ def main():
     model.cuda()
 
     images = load_images(example_ids=example_ids)
+    logits = model(images)
+    probs = F.softmax(logits, dim=1)
+    print(logits.shape)
+    print(logits.max(), logits.min())
+    print(probs.max())
+    quit()
 
     caso = CASO(second_order=args.second_order, smooth=args.smooth, \
                 full_hessian=args.relu_hessian)
@@ -82,7 +88,7 @@ def main():
     delta_viz = viz.clip(delta_viz)
     plt.imshow(delta_viz[0, :], cmap='gray')
     plt.axis('off')
-    plt.savefig('delta.png')
+    plt.savefig('delta.png', bbox_inches='tight')
     plt.close()
 
 if __name__ == '__main__':
