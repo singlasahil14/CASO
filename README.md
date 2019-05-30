@@ -18,16 +18,16 @@ To evaluate the interpretation with default parameters on the given toy image, r
 <p>To generate the following examples use python main.py --lambda1 LAMBDA</p>
 
 <div align = 'center'>
-	<figure style='float: center; margin-left: 5px; margin-right: 5px; margin-top: 0px'>
+	<figure style='float: center; margin-left: 5px; margin-right: 5px;'>
 		<img src = 'examples/sparsity_example.png' width = '1000px'>
 	</figure>
 </div>
 
+<br/>
 To generate the CAFO example, use python .\main.py --image_path=IMAGE_NAME --lambda1=0 --magnitude <br>
 For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 --magnitude --second-order
-
 <div align = 'center'>
-	<figure style='float: center; margin-left: 5px; margin-right: 5px; margin-top: 0px'>
-		<img src = 'examples/hessian_example.png' width = '800px'>
+	<figure style='float: center; margin-left: 5px; margin-right: 5px;'>
+		<img src = 'examples/hessian_example.png' width = '750px'>
 	</figure>
 </div>
