@@ -15,6 +15,7 @@ To evaluate the interpretation with default parameters on the given toy image, r
 
 ## Examples
 
+### Impact of Group Features
 <p>To generate the following examples use python main.py --lambda1 LAMBDA</p>
 
 <div align = 'center'>
@@ -22,8 +23,9 @@ To evaluate the interpretation with default parameters on the given toy image, r
 		<img src = 'examples/sparsity_example.png' width = '1000px'>
 	</figure>
 </div>
+Low values of &#955;<sub>1</sub> lead to sparse saliency maps. Noise is removed and salient features are highlighted.
 
-<br/>
+### Impact of Hessian
 To generate the CAFO example, use python .\main.py --image_path=IMAGE_NAME --lambda1=0 --magnitude <br>
 For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 --magnitude --second-order
 <div align = 'center'>
@@ -34,3 +36,4 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 		<img src = 'examples/high_confidence_example.png' width = '750px'>
 	</figure>
 </div>
+For low confidence in the predicted class, CASO and CAFO can be very different (turtle example). For high confidence, CASO and CAFO are similar (duck example).
