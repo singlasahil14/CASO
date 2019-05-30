@@ -13,6 +13,12 @@ Code for reproducing experiments in ["Understanding Impacts of High-Order Loss A
 
 To evaluate the interpretation with default parameters on the given toy image, run python main.py. To access all the parameters use python main.py --help.
 
+<style>
+.site-main table.no-border td {
+    border: none;
+}
+</style>
+
 ## Examples
 
 <p>To generate the following examples use python main.py --lambda1 LAMBDA</p>
