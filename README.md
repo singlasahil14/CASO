@@ -79,19 +79,17 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 
 
 <div align = 'center'>
-	<figure>
-	    <div style="float:left" >
-			<img src = 'examples/duck.jpeg' height = '150px' width = '150px'>
-	  		<figcaption>Confidence=0.957</figcaption>
-	    </div>
-	    <div style="float:left" >
-			<img src = 'examples/duck_cafo.png' height = '150px' width = '150px'>
-			<figcaption>CAFO output</figcaption>
-	    </div>
-	    <div style="float:left" >
-			<img src = 'examples/duck_caso.png' height = '150px' width = '150px'>
-			<figcaption>CASO output</figcaption>
-	    </div>
-	</figure>
+	<div style='float:left'>
+		<img align='left' src = 'examples/duck.jpeg' height = '200px' width = '200px'>
+	  	<figcaption>Confidence=0.957</figcaption>
+	</div>
+	<div style='float:left'>
+		<img align='left' src = 'examples/duck_cafo.png' height = '200px' width = '200px'>
+		<figcaption>CAFO output</figcaption>
+	</div>
+	<div style='float:left'>
+		<img align='left' src = 'examples/duck_caso.png' height = '200px' width = '200px'>
+		<figcaption>CASO output</figcaption>
+	</div>
 	<br>
 </div>
