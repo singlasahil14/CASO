@@ -35,6 +35,14 @@ To evaluate the interpretation with default parameters on the given toy image, r
 			<img src = 'examples/delta_1e-5.png' height = '200px' width = '200px'>
 			<figcaption>&#955;<sub>1</sub>=1e-5</figcaption>
 	    </div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	</figure>
 	<br>
 </div>
@@ -73,15 +81,15 @@ For the CASO example, use python .\main.py --image_path==IMAGE_NAME --lambda1=0 
 <div align = 'center'>
 	<figure>
 	    <div style="float:left" >
-			<img src = 'examples/duck.jpeg' height = '200px' width = '200px'>
+			<img src = 'examples/duck.jpeg' height = '150px' width = '150px'>
 	  		<figcaption>Confidence=0.957</figcaption>
 	    </div>
 	    <div style="float:left" >
-			<img src = 'examples/duck_cafo.png' height = '200px' width = '200px'>
+			<img src = 'examples/duck_cafo.png' height = '150px' width = '150px'>
 			<figcaption>CAFO output</figcaption>
 	    </div>
 	    <div style="float:left" >
-			<img src = 'examples/duck_caso.png' height = '200px' width = '200px'>
+			<img src = 'examples/duck_caso.png' height = '150px' width = '150px'>
 			<figcaption>CASO output</figcaption>
 	    </div>
 	</figure>
